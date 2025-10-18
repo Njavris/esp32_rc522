@@ -1,0 +1,4 @@
+Made this to clone RFID cards with RC522 and esp-idf.
+All available code was for Arduino.
+
+Great future improvement could be to finish irq support.
