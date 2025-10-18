@@ -1,0 +1,30 @@
+menu "RC522 RFID Configuration"
+
+	config RC522_SPI_CS_PIN
+		int "CS signal pin"
+		default 16
+
+	config RC522_SPI_SCLK_PIN
+		int "SCLK signal pin"
+		default 17
+
+	config RC522_SPI_MOSI_PIN
+		int "MOSI signal pin"
+		default 5
+
+	config RC522_SPI_MISO_PIN
+		int "MISO signal pin"
+		default 18
+
+	config RC522_IRQ_PIN
+		int "IRQ signal pin"
+		default 19
+
+	config RC522_RST_PIN
+		int "Reset signal pin"
+		default 21
+
+	config RC522_NRST
+		bool "Inverted eset signal"
+
+endmenu
